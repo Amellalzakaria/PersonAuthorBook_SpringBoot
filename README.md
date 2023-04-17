@@ -1,5 +1,3 @@
- PersonneAuteurLivre_SpringBoot
-
 ## BookStore_application_SpringBoot
 The Book Store Application is a web application that allows users to manage and search books and authors. The application offers the following features:  
 Create, read, update, and delete authors and books.  
@@ -8,7 +6,7 @@ Get all books of an author, all authors born on a specific date, and all books p
 Assign a book to an author.  
 The project will be developed using Agile methodology with short iterations to ensure good responsiveness to client requests. Unit and integration tests will be performed regularly throughout development to ensure code quality. Development will take place in a separate environment from the production environment.  
 
-APIs to be implemented for the next session:  
+## APIs to be implemented for the next session:  
 Get all authors: GET /api/authors  
 This API returns a list of all authors available in the database.  
 Get an author by their CIN: GET /api/authors/cin/{cin}  
@@ -37,13 +35,13 @@ Get all books published between two dates: GET /api/books/published/{startDate}/
 This API takes two dates in the format yyyy-MM-dd as parameters and returns a list of all books published between those dates.  
 Assign a book to an author: PUT /api/authors/{authorId}/books/{bookId}  
 This API assigns a book to an author using the IDs provided in the URL.  
-Technologies used:  
+## Technologies used:  
 Postman for testing, Eclipse, MySQL or PostgreSQL, Maven, and Spring Boot.  
 
 To run the application, follow these steps:  
-Clone the repository.  
-Open the project in Eclipse.  
-Run the application using Maven.  
-Test the APIs using Postman.  
-Deploy the application on a server, such as Tomcat or Jetty.  
+1. Clone the repository.  
+2. Open the project in Eclipse.  
+3. Run the application using Maven.  
+4. Test the APIs using Postman.  
+
 Please refer to the documentation for more information about the APIs and how to use them.  
