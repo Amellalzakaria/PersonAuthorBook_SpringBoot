@@ -1,4 +1,4 @@
-## BookStore_application_SpringBoot
+## PersonAuthorBook_SpringBoot
 The Book Store Application is a web application that allows users to manage and search books and authors. The application offers the following features:  
 - Create, read, update, and delete authors and books.  
 - Find an author by their national ID number (CIN) or a book by its ISBN.  
